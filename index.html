@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaid Almeida | Portafolio Profesional</title>
+
+```
+<!-- Tipografía profesional utilizada en todo el sitio -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Hoja de estilos externa -->
+<link rel="stylesheet" href="styles.css">
+```
+
+</head>
+<body>
+
+```
+<!-- Encabezado principal con logo y menú -->
+<header>
+    <div class="container header-container">
+
+        <!-- Identidad visual del sitio -->
+        <div class="logo">
+            <img src="https://picsum.photos/50/50" alt="Logo">
+        </div>
+
+        <!-- Navegación principal -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- Sección de presentación principal -->
+    <section id="inicio" class="hero">
+
+        <div class="container hero-content">
+
+            <!-- Información principal -->
+            <div class="hero-text">
+
+                <h1>Hola, soy Zaid Almeida</h1>
+
+                <h2>Multimedia y Producción Audiovisual</h2>
+
+                <p class="hero-phrase">
+                    Cada proyecto es una historia; mi trabajo es hacerla inolvidable.
+                </p>
+
+                <a href="#proyectos" class="btn">
+                    Ver proyectos
+                </a>
+
+            </div>
+
+            <!-- Fotografía de perfil -->
+            <div class="hero-image">
+                <img src="imagenes/zaid.jpeg" alt="Foto de perfil">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Información profesional -->
+    <section id="sobre-mi" class="about">
+
+        <div class="container">
+
+            <h2 class="section-title">Sobre mí</h2>
+
+            <p>
+                Soy Zaid Almeida, estudiante de Multimedia y Producción Audiovisual,
+                apasionado por la creación de contenido visual que conecta con las
+                personas y transmite historias de manera auténtica. Mi trabajo combina
+                creatividad, técnica y atención al detalle para desarrollar proyectos
+                de fotografía, video y diseño con un enfoque profesional.
+            </p>
+
+            <br>
+
+            <p>
+                Busco transformar ideas en experiencias visuales memorables,
+                aportando soluciones creativas que ayuden a marcas, artistas y
+                emprendedores a destacar en un entorno cada vez más visual y competitivo.
+                Cada proyecto representa una oportunidad para innovar, comunicar y generar
+                impacto a través del lenguaje audiovisual.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Portafolio principal -->
+    <section id="proyectos" class="projects">
+
+        <div class="container">
+
+            <h2 class="section-title">Mis Proyectos</h2>
+
+            <div class="projects-grid">
+
+                <!-- Proyecto de fotografía -->
+                <article class="project-card">
+
+                    <img src="imagenes/fotografia.jpeg" alt="Proyecto Fotográfico">
+
+                    <div class="card-content">
+                        <h3>Fotografía Profesional</h3>
+
+                        <p>
+                            Captura de momentos y creación de imágenes con enfoque creativo,
+                            técnico y narrativo para diferentes tipos de proyectos.
+                        </p>
+                    </div>
+
+                </article>
+
+                <!-- Proyecto de diseño -->
+                <article class="project-card">
+
+                    <img src="imagenes/buen paladar.png" alt="Proyecto de Diseño">
+
+                    <div class="card-content">
+                        <h3>Diseño Gráfico</h3>
+
+                        <p>
+                            Desarrollo de piezas visuales enfocadas en comunicación efectiva,
+                            identidad visual y contenido para medios digitales.
+                        </p>
+                    </div>
+
+                </article>
+
+                <!-- Proyecto audiovisual -->
+                <article class="project-card">
+
+                    <video controls>
+                        <source src="video/video muscial.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+
+                    <div class="card-content">
+                        <h3>Producción Audiovisual</h3>
+
+                        <p>
+                            Producción y edición de contenido audiovisual orientado a contar
+                            historias, transmitir emociones y generar impacto visual.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Habilidades profesionales -->
+    <section class="skills">
+
+        <div class="container">
+
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">Fotografía</div>
+
+                <div class="skill-card">Edición de Video</div>
+
+                <div class="skill-card">Producción Audiovisual</div>
+
+                <div class="skill-card">Diseño Gráfico</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contact">
+
+        <div class="container contact-container">
+
+            <!-- Mensaje de invitación -->
+            <div class="contact-info">
+
+                <h2>¿Tienes un proyecto en mente?</h2>
+
+                <p>
+                    Estoy listo para transformar tus ideas en contenido visual de alto impacto.
+                    Ya sea fotografía, producción audiovisual, edición de video o contenido para
+                    redes sociales, trabajemos juntos para crear proyectos que conecten con tu
+                    audiencia, fortalezcan tu imagen y hagan destacar tu marca.
+                </p>
+
+            </div>
+
+            <!-- Formulario de contacto -->
+            <form class="contact-form">
+
+                <input type="text" placeholder="Nombre" required>
+
+                <input type="email" placeholder="Correo electrónico" required>
+
+                <textarea rows="6" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+
+                <button type="submit" class="btn">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- Pie de página -->
+<footer>
+
+    <div class="container">
+
+        <p>
+            © 2026 Zaid Almeida. Todos los derechos reservados.
+        </p>
+
+        <!-- Redes profesionales -->
+        <div class="social-links">
+
+            <a href="#">Instagram</a>
+
+            <a href="#">LinkedIn</a>
+
+            <a href="#">GitHub</a>
+
+            <a href="#">Behance</a>
+
+        </div>
+
+    </div>
+
+</footer>
+```
+
+</body>
+</html>
